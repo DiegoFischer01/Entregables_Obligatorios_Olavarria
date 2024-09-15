@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+#contenedor{
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards{
+    border: 1px solid yellow;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+}
