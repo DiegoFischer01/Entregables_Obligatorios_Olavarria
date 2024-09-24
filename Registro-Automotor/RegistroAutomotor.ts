@@ -1,6 +1,6 @@
 
-    class Registro_Automor{
+   export class Registro_Automor{
 
         private nombre:string;
-        private lista:[];
+        private listaVehiculos:[];
     }

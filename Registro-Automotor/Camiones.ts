@@ -1,5 +1,6 @@
+import { Patente } from "./patente";
 
-    class Camiones{
+    export class Camiones{
 
         
     }
