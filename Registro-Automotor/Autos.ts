@@ -13,8 +13,24 @@ import { Patente } from "./patente";
             this.modelo=modelo;
         }
 
-        
+         // Getter y Setter:
+         public getPatente():Patente{
+            return this.patente;
+        }    
 
+        public getMarca(): string {
+            return this.marca;
+        }
+
+        public getModlo(): string {
+            return this.modelo;
+        }
+
+        public modificarMarca(patente: Patente, nuevaMarca: string): void {
+            if (this.patente.getPatenteMoto() === patente.getPatenteMoto()) {
+                this.marca = nuevaMarca;
+            }
+        }
     }
 
 
