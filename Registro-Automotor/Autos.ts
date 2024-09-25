@@ -22,7 +22,7 @@ import { Patente } from "./patente";
             return this.marca;
         }
 
-        public getModlo(): string {
+        public getModelo(): string {
             return this.modelo;
         }
 
