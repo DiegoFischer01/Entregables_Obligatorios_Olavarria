@@ -2,7 +2,7 @@ import { Patente } from "./patente";
 import { Motovehiculos } from "./Motos";
 import { Automotores } from "./Autos";
 import { Camiones } from "./Camiones";
-import { Registro_Automor } from "./RegistroAutomotor";
+import { Registro_Automotor } from "./RegistroAutomotor";
 
 //Instancio la primera moto y pruebo getters, setters y metodos:
 const patenteMoto1 = new Patente("321LFG");
