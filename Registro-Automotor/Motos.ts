@@ -8,11 +8,11 @@ import { Patente } from "./patente";
         private modelo:string;
         private cilindrada:number;
 
-        constructor(patente:Patente, marca:string, modelo:string, clindrada:number){
+        constructor(patente:Patente, marca:string, modelo:string, cilindrada:number){
             this.patente=patente;
             this.marca=marca;
             this.modelo=modelo;
-            this.cilindrada=clindrada;
+            this.cilindrada=cilindrada;
         }
 
       // Getter y Setter:
