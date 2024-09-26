@@ -27,8 +27,18 @@
     import { Camiones } from "./Camiones";
 
     export class Registro_Automotor {
+
+        private nombre:string;
         private vehiculos: (Motovehiculos | Automotores | Camiones)[] = [];
 
+        constructor(nombre:string){
+            this.nombre=nombre;
+        }
+
+    // Get:    
+        getNombre():string{
+            return this.nombre;
+        }
     // Método para agregar un vehículo
     public agregarVehiculo(vehiculo: Motovehiculos | Automotores | Camiones): void {
         this.vehiculos.push(vehiculo);

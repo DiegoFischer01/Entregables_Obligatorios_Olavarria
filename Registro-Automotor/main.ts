@@ -24,3 +24,11 @@ console.log(auto1.getPatente());
 const patenteCamion1 = new Patente("AF-555-CB");
 let camion1 = new Camiones(patenteCamion1,"Mercedes Benz", "11 14");
 console.log(camion1);
+
+//Instancio el Registro:
+const Registro1:Registro_Automotor = new Registro_Automotor("Registro Nº1");
+console.log(Registro1.getNombre());
+Registro1.agregarVehiculo(auto1);
+Registro1.listarVehiculos();
+Registro1.agregarVehiculo(moto1);
+Registro1.listarVehiculos();
