@@ -15,9 +15,12 @@ console.log(moto1.getMarca());
 
 //Instancio el auto1 y pruebo sus metodos:
 const patenteAuto1 = new Patente("ABC123");
-let auto1 = new Automotores(patenteAuto1,"Peugeot", "206");
+let auto1 = new Automotores(patenteAuto1,"Volkswagen", "Gol");
 console.log(auto1)
 console.log(auto1.getPatente());
+//Instancio el 2do auto:
+const patenteAuto2 = new Patente("GQN274");
+let auto2 = new Automotores (patenteAuto2,"Peugeot","206");
 
 
 //Instancio camion1:
@@ -29,6 +32,12 @@ console.log(camion1);
 const Registro1:Registro_Automotor = new Registro_Automotor("Registro Nº1");
 console.log(Registro1.getNombre());
 Registro1.agregarVehiculo(auto1);
-Registro1.listarVehiculos();
+
 Registro1.agregarVehiculo(moto1);
+
+Registro1.darDeBajaVehiculo(patenteAuto1);
+
+Registro1.agregarVehiculo(auto1);
+Registro1.agregarVehiculo(camion1);
+Registro1.agregarVehiculo(auto2);
 Registro1.listarVehiculos();
