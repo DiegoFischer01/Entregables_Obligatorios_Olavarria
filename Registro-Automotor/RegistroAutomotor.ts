@@ -40,7 +40,7 @@
             return this.nombre;
         }
     // Método para agregar un vehículo
-    public agregarVehiculo(vehiculo: Motovehiculos | Automotores | Camiones): void {
+    public agregarVehiculo(vehiculo: Motovehiculos | Automotores | Camiones): void { //usas | para definir uniones de tipos o realizar operaciones a nivel de bits, mientras que || se usa para evaluar expresiones lógicas. En tu método agregarVehiculo, | es correcto porque estás definiendo un tipo de unión para el parámetro vehiculo
         this.vehiculos.push(vehiculo);
         console.log("Vehículo agregado:", vehiculo);
     }

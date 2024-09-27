@@ -14,7 +14,7 @@ import { Patente } from "./patente";
         }
 
          // Getter y Setter:
-         public getPatente():Patente{
+        public getPatente():Patente{
             return this.patente;
         }    
 
