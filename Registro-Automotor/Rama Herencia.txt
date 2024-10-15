@@ -1,4 +1,0 @@
-En esta rama voy a refactorizar el codigo para usar herencia.
-
-- Primero tengo que acomodar lo que me dijo karen(Hacer 3 array por separado de autos, motos y camiones).
-

@@ -1,0 +1,4 @@
+En esta rama voy a hacer las correcciones que me indico Karen.
+
+- (Hacer 3 array por separado de autos, motos y camiones).
+
