@@ -41,3 +41,5 @@ Registro1.agregarVehiculo(auto1);
 Registro1.agregarVehiculo(camion1);
 Registro1.agregarVehiculo(auto2);
 Registro1.listarVehiculos();
+
+// todo esto lo tengo que hacer desde dentro de las clases.
