@@ -1,5 +1,5 @@
 
-    class Vehiculos{
+        export class Vehiculos{
 
         protected motor:string;
         protected ruedas: number;
@@ -25,18 +25,9 @@
         public getMarca(): string {
             return this.marca;
         }
-    }
 
-
-    class Motos extends Vehiculos{
-
-        protected tipo:string;
-        protected cilindrada:number;
-
-        constructor(motor:string,ruedas:number,patente:string,marca:string,modelo:string,tipo:string,cilindrada:number){
-            super(motor,ruedas,patente,marca,modelo);
-            this.tipo=tipo;
-            this.cilindrada=cilindrada;
+        public acelerar(): string {
+            return `El vehículo con patente ${this.patente} esta en marcha.`;
         }
-            
-    }
+
+        }        
