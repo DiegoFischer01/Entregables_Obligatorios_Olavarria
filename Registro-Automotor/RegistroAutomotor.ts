@@ -1,26 +1,4 @@
 
-    // export class Registro_Automor{
-
-    //     private nombre:string;
-    //     // private listaVehiculos:[];
-
-    //     constructor(nombre:string){
-    //         this.nombre=nombre;
-    //     }
-
-    //     //Get:
-    //     public getNombre():string{
-    //         return this.nombre;
-    //     }    
-
-    //     //Setters y metodos:
-        
-    
-    // }
-
-
-
-
     import { Patente } from "./patente";
     import { Motovehiculos } from "./Motos";
     import { Automotores } from "./Autos";
