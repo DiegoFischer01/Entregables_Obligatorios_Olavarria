@@ -22,4 +22,6 @@
 
         abstract ataque_especial();
 
+        abstract progreso();
+
     }

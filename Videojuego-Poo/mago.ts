@@ -1,6 +1,6 @@
 import { Personaje } from "./personaje";
 
-    class Luchador extends Personaje {
+    class Mago extends Personaje {
 
         protected arma:string;
 
@@ -14,8 +14,7 @@ import { Personaje } from "./personaje";
         ataque_especial(): void {
             console.log(`${this.nombre} utilizo su ataque especial de ${this.arma}`);
         }
-
         progreso():void {
-            //cuando ataca una vez y se defiende una vez: evoluciona a caballero.
+            //cuando ataca 2 veces evoluciona a hechicero.
         }
     }

@@ -1,9 +1,8 @@
 import { Personaje } from "./personaje";
 
-    class Luchador extends Personaje {
+    class Arquero extends Personaje {
 
-        protected arma:string;
-
+        arma:string;
         super(nombre:string,nivel:number,vida:number,arma:string) {
             this.nombre=nombre;
             this.nivel=nivel;
@@ -16,6 +15,6 @@ import { Personaje } from "./personaje";
         }
 
         progreso():void {
-            //cuando ataca una vez y se defiende una vez: evoluciona a caballero.
+            //cuando ataca 3 veces evoluciona a Arquero Elite.
         }
     }
