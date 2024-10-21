@@ -1,5 +1,5 @@
 
-    // export class Evolucion_Caballero {
+    export class Caballero {
 
 
-    // }
+    }

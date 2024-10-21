@@ -5,8 +5,9 @@ import { Arquero } from "./arquero";
 
 
 
-const miLuchador = new Luchador("Maximus", 1, 100, "Espada");
-miLuchador.atacar();
-miLuchador.defender();
-miLuchador.ataque_especial();
-// miLuchador.progreso();
+const maximus = new Luchador("Maximus", 1, 100, "Espada");
+maximus.atacar(); // Primer ataque
+maximus.getNivel();
+maximus.atacar(); // Segundo ataque, sube a nivel 2
+maximus.atacar(); // Tercer ataque
+maximus.atacar(); // Cuarto ataque, sube a nivel 3 y evoluciona
