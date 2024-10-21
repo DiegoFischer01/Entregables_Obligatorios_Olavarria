@@ -5,7 +5,7 @@
         protected  nivel:number = 1;
         protected  vida:number;
 
-        constructor(nombre:string,nivel:number,vida) {
+        constructor(nombre:string,nivel:number,vida:number) {
             this.nombre=nombre;
             this.nivel=nivel;
             this.vida=vida;
@@ -20,8 +20,8 @@
             console.log(`${this.nombre} estas defendiendo`);
         }
 
-        abstract ataque_especial();
+        abstract ataque_especial():void;
 
-        abstract progreso();
+        // abstract progreso();
 
     }

@@ -1,6 +1,6 @@
 import { Personaje } from "./personaje";
 
-    class Luchador extends Personaje {
+        export class Luchador extends Personaje {
 
         protected arma:string;
 
