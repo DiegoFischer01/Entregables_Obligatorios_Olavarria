@@ -4,10 +4,8 @@ import { Personaje } from "./personaje";
 
         protected arma:string;
 
-        super(nombre:string,nivel:number,vida:number,arma:string) {
-            this.nombre=nombre;
-            this.nivel=nivel;
-            this.vida=vida;
+        constructor(nombre: string, nivel: number, vida: number, arma: string) {
+            super(nombre, nivel,vida); 
             this.arma=arma;
         }
 

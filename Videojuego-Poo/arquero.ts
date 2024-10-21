@@ -2,11 +2,10 @@ import { Personaje } from "./personaje";
 
     class Arquero extends Personaje {
 
-        arma:string;
-        super(nombre:string,nivel:number,vida:number,arma:string) {
-            this.nombre=nombre;
-            this.nivel=nivel;
-            this.vida=vida;
+        protected arma:string;
+
+        constructor(nombre: string, nivel: number, vida: number, arma: string) {
+            super(nombre, nivel,vida); 
             this.arma=arma;
         }
 
